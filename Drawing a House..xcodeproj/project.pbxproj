@@ -21,6 +21,7 @@
 		57A6C556183E7B3D00AF3ACE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A6C538183E7B3D00AF3ACE /* UIKit.framework */; };
 		57A6C55E183E7B3D00AF3ACE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57A6C55C183E7B3D00AF3ACE /* InfoPlist.strings */; };
 		57A6C560183E7B3D00AF3ACE /* Drawing_a_House_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A6C55F183E7B3D00AF3ACE /* Drawing_a_House_Tests.m */; };
+		57A6C56B183E7BA600AF3ACE /* HouseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A6C56A183E7BA600AF3ACE /* HouseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		57A6C55B183E7B3D00AF3ACE /* Drawing a House.Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawing a House.Tests-Info.plist"; sourceTree = "<group>"; };
 		57A6C55D183E7B3D00AF3ACE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		57A6C55F183E7B3D00AF3ACE /* Drawing_a_House_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_a_House_Tests.m; sourceTree = "<group>"; };
+		57A6C569183E7BA600AF3ACE /* HouseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HouseView.h; path = ../HouseView.h; sourceTree = "<group>"; };
+		57A6C56A183E7BA600AF3ACE /* HouseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HouseView.m; path = ../HouseView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +115,9 @@
 		57A6C53A183E7B3D00AF3ACE /* Drawing a House. */ = {
 			isa = PBXGroup;
 			children = (
-				57A6C543183E7B3D00AF3ACE /* DHAppDelegate.h */,
-				57A6C544183E7B3D00AF3ACE /* DHAppDelegate.m */,
+				57A6C569183E7BA600AF3ACE /* HouseView.h */,
+				57A6C56A183E7BA600AF3ACE /* HouseView.m */,
 				57A6C546183E7B3D00AF3ACE /* Main.storyboard */,
-				57A6C549183E7B3D00AF3ACE /* DHViewController.h */,
-				57A6C54A183E7B3D00AF3ACE /* DHViewController.m */,
 				57A6C54C183E7B3D00AF3ACE /* Images.xcassets */,
 				57A6C53B183E7B3D00AF3ACE /* Supporting Files */,
 			);
@@ -126,6 +127,10 @@
 		57A6C53B183E7B3D00AF3ACE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				57A6C549183E7B3D00AF3ACE /* DHViewController.h */,
+				57A6C54A183E7B3D00AF3ACE /* DHViewController.m */,
+				57A6C543183E7B3D00AF3ACE /* DHAppDelegate.h */,
+				57A6C544183E7B3D00AF3ACE /* DHAppDelegate.m */,
 				57A6C53C183E7B3D00AF3ACE /* Drawing a House.-Info.plist */,
 				57A6C53D183E7B3D00AF3ACE /* InfoPlist.strings */,
 				57A6C540183E7B3D00AF3ACE /* main.m */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57A6C545183E7B3D00AF3ACE /* DHAppDelegate.m in Sources */,
+				57A6C56B183E7BA600AF3ACE /* HouseView.m in Sources */,
 				57A6C54B183E7B3D00AF3ACE /* DHViewController.m in Sources */,
 				57A6C541183E7B3D00AF3ACE /* main.m in Sources */,
 			);
